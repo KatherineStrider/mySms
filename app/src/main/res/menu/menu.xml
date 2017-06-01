@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/saveToSd"
+        android:title="Сохранить на карту памяти"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/getFromSd"
+        android:title="Получить с карты памяти"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/saveToBd"
+        android:title="Сохранить в базу данных"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/getFromBd"
+        android:title="Получить из базы данных"
+        android:orderInCategory="2"/>
+
+</menu>
